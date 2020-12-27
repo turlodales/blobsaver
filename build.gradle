@@ -43,6 +43,7 @@ repositories {
 
 test {
     useJUnitPlatform()
+    systemProperty "jna.debug_load", "true"
 }
 
 dependencies {
